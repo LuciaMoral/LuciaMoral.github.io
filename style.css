@@ -1,0 +1,11 @@
+.banner {
+  margin: 0 auto;
+  display: flex;
+}
+
+.banner-text {
+  align-items: center;
+}
+.picture {
+  width: 50%;
+}
