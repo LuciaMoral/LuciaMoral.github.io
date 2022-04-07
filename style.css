@@ -42,21 +42,47 @@ body {
   -webkit-font-smoothing: antialiased;
  }
 
- .container-fluid {
-    width: 50%!important;
-    font-weight: regular;
+/* decoding my journey  */
+
+.container-fluid {
+  padding: 30px;
+}
+
+ .description {
+   font-weight: regular;
     font-size: 1.5rem;
     line-height: 2rem;
     color: #222222;
-    margin-top: 30px;
-
+    margin: 0 auto;
+    width: 60%;
  }
 
+.content {
+  max-width: 1080px;
+  margin: 0 auto;
+}
  h2 {
   font-weight: 700!important;
    font-size: 1.9rem;
    color: #6C3BF5;
    letter-spacing: -0.02rem;
-   padding-left: 60px!important;
-   margin-top: 40px!important;
+
+}
+
+/* projects */
+
+.container-projects {
+  background-color: #D8D8D9;
+  padding: 30px;
+}
+
+.flexbox {
+  display: flex;
+  max-width: 1080px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.project-image {
+  width: 400px;
 }
