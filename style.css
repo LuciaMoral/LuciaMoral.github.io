@@ -1,17 +1,62 @@
+body {
+ font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
 .banner {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  background-color: #8761F1;
+  background-color: #6c3bf5;
 }
 
 .banner-text {
   align-items: center;
-  color: white;
-  font-weight: 400;
-  font-size: 1.5rem;
-
+  padding-right: 75px;
+  padding-left: 75px;
 }
+
+.intro {
+  font-weight: 400!important;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: white;
+}
+
 .picture {
   width: 50%;
+}
+
+.btn-primary {
+  margin-top: 15px;
+  background-color: #6c3bf5!important;
+  border-color: white!important
+}
+
+.btn-primary:hover {
+  background-color: transparent!important;
+  border-color: #84FFD3!important;
+	color: #84FFD3!important
+}
+ html {
+  -webkit-font-smoothing: antialiased;
+ }
+
+ .container-fluid {
+    width: 50%!important;
+    font-weight: regular;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #222222;
+    margin-top: 30px;
+
+ }
+
+ h2 {
+  font-weight: 700!important;
+   font-size: 1.9rem;
+   color: #6C3BF5;
+   letter-spacing: -0.02rem;
+   padding-left: 60px!important;
+   margin-top: 40px!important;
 }
