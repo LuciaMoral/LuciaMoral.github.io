@@ -75,14 +75,80 @@ body {
   background-color: #D8D8D9;
   padding: 30px;
 }
-
-.flexbox {
+h3 {
+  padding-left: 140px;
+  margin-bottom: 40px!important;
+  margin-top: 20px;
+}
+.project-card {
   display: flex;
-  max-width: 1080px;
-  margin: 0 auto;
+  flex-direction: row;
   gap: 30px;
+  padding: 0 140px;
+  align-items: flex-start;
+
 }
 
 .project-image {
-  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+
+  }
+
+  .project-details {
+flex-direction: column;
+    width: 60%;
+  }
+
+
+.title {
+  font-size: 1.6rem!important;
+}
+p {
+  font-weight: regular;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  color:#222222;
+}
+
+.skills {
+  color: #6C3BF5;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+#line {
+  border-bottom: 1px solid white;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+
+/* responsive design */
+
+ /* Small & Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+    padding: 0 20px;
+
+  }
+
+ .project-image {
+   width: 100%;
+ }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
