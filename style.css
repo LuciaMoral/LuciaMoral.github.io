@@ -35,8 +35,8 @@ body {
 
 .btn-primary:hover {
   background-color: transparent!important;
-  border-color: #84FFD3!important;
-	color: #84FFD3!important
+  border-color: #FF90E7!important;
+	color: #FF90E7!important
 }
  html {
   -webkit-font-smoothing: antialiased;
@@ -71,37 +71,36 @@ body {
 
 /* projects */
 
-.container-projects {
+.flexbox-container {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   background-color: #D8D8D9;
-  padding: 30px;
+  padding: 20px 200px;
+  align-items: flex-start;
+  gap: 30px;
+
+
 }
+ .flexbox-item {
+  width: 500px;
+  margin: 10px;
+}
+
+.item-1 {
+  flex-shrink: 0;
+  width: 400px;
+}
+.item-2{
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
 h3 {
   padding-left: 140px;
   margin-bottom: 40px!important;
   margin-top: 20px;
 }
-.project-card {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  padding: 0 140px;
-  align-items: flex-start;
-
-}
-
-.project-image {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 40%;
-
-  }
-
-  .project-details {
-flex-direction: column;
-    width: 60%;
-  }
-
 
 .title {
   font-size: 1.6rem!important;
@@ -118,19 +117,27 @@ p {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.3rem;
+  width: 80%;
 }
 
 #line {
   border-bottom: 1px solid white;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
+
 }
 
+.project-link {
+  text-decoration: none;
+  color: #6C3BF5;
+}
+
+.project-link:hover {
+  color: #FF2DD2;
+}
 
 /* responsive design */
 
  /* Small & Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .project-card {
     flex-direction: column;
     padding: 0 20px;
@@ -143,12 +150,12 @@ p {
 
 }
 
-/* Large devices (desktops, 992px and up) */
+Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
 }
 
  /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+ /* /* @media (min-width: 1200px) {
 
-}
+} */
