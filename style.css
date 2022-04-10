@@ -2,41 +2,54 @@ body {
  font-family: 'IBM Plex Sans', sans-serif;
 }
 
-
 .banner {
   margin: 0 auto;
   display: flex;
   align-items: center;
   background-color: #6c3bf5;
-}
 
-.banner-text {
-  align-items: center;
-  padding-right: 75px;
-  padding-left: 75px;
-}
-
-.intro {
-  font-weight: 400!important;
-  font-size: 2rem;
-  line-height: 2.5rem;
-  color: white;
 }
 
 .picture {
   width: 50%;
+  background-position: 50%;
+  height: calc(var(--vh, 1vh)*100);
+  background-image: url("images/chimis_bw.jpg");
+  background-size: cover;
 }
+
+.banner-text {
+  /* align-content: center; */
+  padding-right: 75px;
+  padding-left: 75px;
+  width: 50%;
+}
+
+.intro {
+  font-weight: 400!important;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: white;
+
+}
+
 
 .btn-primary {
   margin-top: 15px;
   background-color: #6c3bf5!important;
-  border-color: white!important
+  border-color: white!important;
+  border-width: 2px!important;
+  text-transform: uppercase;
+  font-size: 1rem!important;
+  font-weight: 600!important;
+  letter-spacing: 0.02rem;
 }
 
 .btn-primary:hover {
   background-color: transparent!important;
   border-color: #FF90E7!important;
-	color: #FF90E7!important
+  border-width: 2px!important;
+  color: #FF90E7!important
 }
  html {
   -webkit-font-smoothing: antialiased;
@@ -45,7 +58,7 @@ body {
 /* decoding my journey  */
 
 .container-fluid {
-  padding: 30px;
+  padding: 30px 30px 18px 30px;
 }
 
  .description {
@@ -53,7 +66,7 @@ body {
     font-size: 1.5rem;
     line-height: 2rem;
     color: #222222;
-    margin: 0 auto;
+    margin: 30px auto;
     width: 60%;
  }
 
@@ -63,12 +76,28 @@ body {
 }
  h2 {
   font-weight: 700!important;
-   font-size: 1.9rem;
+   font-size: 1.6rem!important;
    color: #6C3BF5;
    letter-spacing: -0.02rem;
 
 }
 
+h3 {
+  font-size: 1.2rem!important;
+  font-weight: 700!important;
+}
+
+.caret {
+  display: flex;
+  margin-top: 40px !important;
+}
+
+.caret-image {
+  width: 30px;
+  padding-left: 15px;
+  margin-top: -5px;
+
+}
 /* projects */
 
 .flexbox-container {
@@ -76,7 +105,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: #D8D8D9;
-  padding: 20px 200px;
+  padding: 40px 170px;
   align-items: flex-start;
   gap: 30px;
 
@@ -84,7 +113,6 @@ body {
 }
  .flexbox-item {
   width: 500px;
-  margin: 10px;
 }
 
 .item-1 {
@@ -94,12 +122,6 @@ body {
 .item-2{
   flex-grow: 1;
   flex-basis: 0;
-}
-
-h3 {
-  padding-left: 140px;
-  margin-bottom: 40px!important;
-  margin-top: 20px;
 }
 
 .title {
@@ -113,7 +135,7 @@ p {
 }
 
 .skills {
-  color: #6C3BF5;
+  color: #222222;
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.3rem;
@@ -134,23 +156,54 @@ p {
   color: #FF2DD2;
 }
 
+/* footer */
+
+.footer {
+  background: #6C3BF5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0px 30px;
+  /* color: rgba(0, 0, 0, 0.3); */
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+  color:#FF90E7;
+}
+
+.footer-copyright {
+  color: white;
+}
 /* responsive design */
 
  /* Small & Medium devices (tablets, 768px and up) */
-/* @media (max-width: 768px) {
-  .project-card {
-    flex-direction: column;
-    padding: 0 20px;
-
+ @media (max-width: 768px) {
+    .picture {
+      width: 100%;
+    }
   }
 
- .project-image {
+ /* .project-image {
    width: 100%;
- }
+ } */
 
-}
 
-Large devices (desktops, 992px and up)
+
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
 }
