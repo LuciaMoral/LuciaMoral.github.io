@@ -224,8 +224,8 @@ p {
 
     .intro {
       font-weight: 400 !important;
-      font-size: 1.8rem;
-      line-height: 2.2rem;
+      font-size: 1.5rem;
+      line-height: 1.9rem;
       color: white;
 
     }
@@ -250,6 +250,7 @@ p {
       max-width: 1080px;
       margin: 0 auto;
       padding-left: 20px;
+      padding-right: 20px;
     }
     .description {
       font-weight: regular;
@@ -269,7 +270,10 @@ p {
       align-items: flex-start;
       gap: 30px;
 
+    }
 
+    .item-1 {
+      width: 360px;
     }
 
     .flexbox-item {
