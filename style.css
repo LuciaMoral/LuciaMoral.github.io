@@ -283,7 +283,7 @@ p {
     }
 
     .flexbox-item {
-      width: 425px;
+      width: 100%;
     }
 
     .footer {
