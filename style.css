@@ -13,7 +13,7 @@ body {
 .picture {
   width: 50%;
   background-position: 50%;
-  height: calc(var(--vh, 1vh)*100);
+  height: calc(var(--vh, 1vh)*80);
   background-image: url("images/chimis_bw.jpg");
   background-size: cover;
 }
@@ -110,14 +110,20 @@ h3 {
 }
 /* projects */
 
+.main {
+  width: 100%;
+  background-color: #E2e2e5;
+}
+
 .flexbox-container {
   display:flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #D8D8D9;
-  padding: 40px 170px;
+  padding: 40px 0px;
   align-items: flex-start;
   gap: 30px;
+  max-width: 1080px;
+  margin: 0 auto;
 
 
 }
