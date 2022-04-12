@@ -113,6 +113,7 @@ h3 {
 .main {
   width: 100%;
   background-color: #E2e2e5;
+  padding: 0 30px;
 }
 
 .flexbox-container {
@@ -271,19 +272,17 @@ p {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-      background-color: #D8D8D9;
-      padding: 40px 30px;
+      padding: 40px 0px;
       align-items: flex-start;
       gap: 30px;
 
     }
 
     .item-1 {
-      width: 360px;
     }
 
     .flexbox-item {
-      width: 100%;
+      width: 100%!important;
     }
 
     .footer {
@@ -302,7 +301,6 @@ p {
       text-decoration: none;
       font-size: 1rem;
       padding: 0px 0px;
-      margin-right: 15px;
       margin-bottom: 10px;
     }
 
