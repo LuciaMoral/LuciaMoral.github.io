@@ -278,8 +278,6 @@ p {
 
     }
 
-    .item-1 {
-    }
 
     .flexbox-item {
       width: 100%!important;
@@ -302,8 +300,12 @@ p {
       font-size: 1rem;
       padding: 0px 0px;
       margin-bottom: 10px;
+      margin-right: 10px;
     }
 
+    .footer-links a:last-child{
+      margin-right: 0;
+    }
 
 
   }
