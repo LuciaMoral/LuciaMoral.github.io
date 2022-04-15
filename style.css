@@ -71,12 +71,16 @@ body {
 
  .description {
    font-weight: regular;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    color: #222222;
+
     margin: 30px auto;
     width: 60%;
  }
+
+p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #222222;
+}
 
 .content {
   max-width: 1080px;
@@ -264,13 +268,16 @@ p {
     }
     .description {
       font-weight: regular;
-      font-size: 1.4rem;
-      line-height: 1.8rem;
-      color: #222222;
       margin: 30px auto;
       width: 100%;
     }
 
+    p {
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      color: #222222;
+
+    }
     .main {
       padding: 0px 20px;
     }
