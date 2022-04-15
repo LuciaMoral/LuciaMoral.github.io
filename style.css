@@ -77,7 +77,7 @@ body {
  }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 2rem;
   color: #222222;
 }
@@ -152,12 +152,7 @@ h3 {
 .title {
   font-size: 1.6rem!important;
 }
-p {
-  font-weight: regular;
-  font-size: 1.3rem;
-  line-height: 1.7rem;
-  color:#222222;
-}
+
 
 .skills {
   color: #222222;
@@ -234,7 +229,7 @@ p {
 
     .intro {
       font-weight: 1.4rem !important;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       line-height: 1.8rem;
       color: white;
 
