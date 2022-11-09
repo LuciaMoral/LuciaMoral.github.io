@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1rem;
+  color: #151515;
+  background: #E5E5E5;
+}
+
+
+/* =================
+   Typography
+   ================= */
+
+h1 {
+  font-size: 1.125rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.215rem;
+  font-weight: 700;
+}
+
+h3,
+.email {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.email {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%
+}
+
+.project {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  padding: 1em 2.5em;
+  color: #151515;
+}
+
+.project:hover {
+  color: fuchsia;
+}
