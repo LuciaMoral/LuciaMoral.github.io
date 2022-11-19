@@ -135,3 +135,31 @@ footer {
 footer a {
   text-decoration: none;
 }
+
+/* =================
+   media queries
+   ================= */
+@media (min-width: 400x) {
+  .main-container {
+    max-width: 1100px;
+  }
+
+  .profile {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section-info {
+    width: 800px;
+    margin-top: 1em;
+  }
+
+  .profile-description {
+    max-width: 500px;
+  }
+
+  img {
+    width: 100%;
+    object-position: top;
+  }
+}
