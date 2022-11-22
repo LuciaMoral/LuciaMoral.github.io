@@ -130,17 +130,22 @@ ul li {
 
 footer {
   border-top: 1px solid black;
-  margin: 2em 0;
+  padding-top: 1em;
+  margin-bottom: 3em;
 }
 
 
 .footer-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 footer a {
+  color: black;
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
 }
 
 /* =================

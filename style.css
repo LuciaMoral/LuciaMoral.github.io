@@ -1,5 +1,5 @@
 body {
- font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .banner {
@@ -25,7 +25,7 @@ body {
 }
 
 .intro {
-  font-weight: 400!important;
+  font-weight: 400 !important;
   font-size: 1.8rem;
   line-height: 2.2rem;
   color: white;
@@ -35,6 +35,7 @@ body {
 .flechaintro {
   width: 30%;
 }
+
 .flechita {
   padding-top: 100px;
   animation-duration: 1s;
@@ -47,21 +48,30 @@ body {
 
 
 }
+
 .bounce {
   animation-name: bounce;
   animation-timing-function: ease;
 }
 
 @keyframes bounce {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-30px); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 
 }
 
- html {
+html {
   -webkit-font-smoothing: antialiased;
- }
+}
 
 /* decoding my journey  */
 
@@ -69,12 +79,12 @@ body {
   padding: 30px 30px 18px 30px;
 }
 
- .description {
-   font-weight: regular;
+.description {
+  font-weight: regular;
 
-    margin: 30px auto;
-    width: 60%;
- }
+  margin: 30px auto;
+  width: 60%;
+}
 
 p {
   font-size: 1.4rem;
@@ -86,17 +96,18 @@ p {
   max-width: 1080px;
   margin: 0 auto;
 }
- h2 {
-  font-weight: 700!important;
-   font-size: 1.6rem!important;
-   color: #6C3BF5;
-   letter-spacing: -0.02rem;
+
+h2 {
+  font-weight: 700 !important;
+  font-size: 1.6rem !important;
+  color: #6C3BF5;
+  letter-spacing: -0.02rem;
 
 }
 
 h3 {
-  font-size: 1.2rem!important;
-  font-weight: 700!important;
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
 }
 
 
@@ -112,6 +123,7 @@ h3 {
   margin-top: -5px;
 
 }
+
 /* projects */
 
 .main {
@@ -121,7 +133,7 @@ h3 {
 }
 
 .flexbox-container {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 40px 0px;
@@ -132,7 +144,8 @@ h3 {
 
 
 }
- .flexbox-item {
+
+.flexbox-item {
   width: 500px;
 }
 
@@ -140,17 +153,19 @@ h3 {
   flex-shrink: 0;
   width: 400px;
 }
+
 .item-1:hover {
   transform: scale(1.04);
-  transition:0.5s ease;
+  transition: 0.5s ease;
 }
-.item-2{
+
+.item-2 {
   flex-grow: 1;
   flex-basis: 0;
 }
 
 .title {
-  font-size: 1.6rem!important;
+  font-size: 1.6rem !important;
 }
 
 
@@ -175,6 +190,7 @@ h3 {
 .project-link:hover {
   color: #FF2DD2;
 }
+
 /* footer */
 
 .footer {
@@ -193,6 +209,7 @@ h3 {
   align-items: center;
   margin-right: 60px;
 }
+
 .footer-links a {
   color: white;
   text-decoration: none;
@@ -202,118 +219,123 @@ h3 {
 
 .footer-links a:hover {
   opacity: 1;
-  color:#FF90E7;
+  color: #FF90E7;
 }
 
 .footer-copyright {
   color: white;
 }
+
 /* responsive design */
 
- /* Small & Medium devices (tablets, 768px and up) */
+/* Small & Medium devices (tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    .picture {
-      width: 100%;
-      background-position: 50%;
-      height: calc(var(--vh, 1vh)*50);
-      background-image: url("images/chimis_bw.jpg");
-      background-size: cover;
-    }
+  .picture {
+    width: 100%;
+    background-position: 50%;
+    height: calc(var(--vh, 1vh)*50);
+    background-image: url("images/chimis_bw.jpg");
+    background-size: cover;
+  }
 
-    .banner-text {
-      padding-top: 20px;
-      padding-right: 20px;
-      padding-left: 20px;
-      width: 100%;
-    }
+  .banner-text {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;
+  }
 
-    .intro {
-      font-weight: 1.4rem !important;
-      font-size: 1.4rem;
-      line-height: 1.8rem;
-      color: white;
-
-    }
-
-    .flechaintro {
-      width: 20%;
-    }
-
-    .flechita {
-      text-align: center;
-      padding-top: 20px;
-      padding-bottom: 10px;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      transform-origin: bottom;
-      width: 200px;
-      height: 100px;
-      margin: 0 auto;
-
-    }
-
-    .container-fluid {
-      padding: 20px;
-    }
-    .content {
-      max-width: 1080px;
-      margin: 0 auto;
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-    .description {
-      font-weight: regular;
-      margin: 30px auto;
-      width: 100%;
-    }
-
-    p {
-      font-size: 1.4rem;
-      line-height: 1.8rem;
-      color: #222222;
-
-    }
-    .main {
-      padding: 0px 20px;
-    }
-    .flexbox-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      padding: 30px 0px;
-      align-items: flex-start;
-      gap: 20px;
-
-    }
-
-
-    .flexbox-item {
-      width: 100%!important;
-    }
-
-    .footer {
-      background: #6C3BF5;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      height: 100px;
-      padding: 25px 30px;
-
-    }
-
-    .footer-links a {
-      color: white;
-      text-decoration: none;
-      font-size: 1rem;
-      padding: 0px 0px;
-      margin-bottom: 10px;
-      margin-right: 10px;
-    }
-
-    .footer-links a:last-child{
-      margin-right: 0;
-    }
-
+  .intro {
+    font-weight: 1.4rem !important;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: white;
 
   }
+
+  .flechaintro {
+    width: 20%;
+  }
+
+  .flechita {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+
+  }
+
+  .container-fluid {
+    padding: 20px;
+  }
+
+  .content {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .description {
+    font-weight: regular;
+    margin: 30px auto;
+    width: 100%;
+  }
+
+  p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #222222;
+
+  }
+
+  .main {
+    padding: 0px 20px;
+  }
+
+  .flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 0px;
+    align-items: flex-start;
+    gap: 20px;
+
+  }
+
+
+  .flexbox-item {
+    width: 100% !important;
+  }
+
+  .footer {
+    background: #6C3BF5;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 25px 30px;
+
+  }
+
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0px 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .footer-links a:last-child {
+    margin-right: 0;
+  }
+
+
+}
