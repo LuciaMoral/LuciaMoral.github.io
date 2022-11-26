@@ -82,7 +82,6 @@ header {
 
 .card {
   margin-top: 0.25em;
-  margin-bottom: 2em;
   padding-bottom: 2em;
 
 }
@@ -91,6 +90,11 @@ header {
 .profile {
   border-bottom: 1px solid #000000;
   padding-bottom: 2em;
+}
+
+.profile-description,
+.card-info {
+  line-height: 1.25em;
 }
 
 .projects {
@@ -104,12 +108,11 @@ header {
 
 .card-skills {
   margin-bottom: 2em;
+
 }
 
 
-.skills-title {
-  margin: 0;
-}
+
 
 .list {
   display: flex;
@@ -130,23 +133,25 @@ ul li {
 
 footer {
   border-top: 1px solid black;
-  padding-top: 1em;
-  margin-bottom: 3em;
+  margin-bottom: 1.5em;
+
 }
 
 
 .footer-links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 footer a {
   color: black;
   text-decoration: none;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 400;
+
 }
+
+.link {}
 
 /* =================
    media queries
@@ -209,5 +214,20 @@ footer a {
 
   ul {
     max-width: 500px;
+  }
+
+  footer {
+    display: flex;
+  }
+
+  .contact {
+    margin-right: auto
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    align-items: center;
   }
 }
