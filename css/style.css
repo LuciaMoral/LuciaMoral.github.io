@@ -6,7 +6,9 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-size: 1rem;
   color: #151515;
-  background: #E5E5E5;
+  background-color: #E5E5E5;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
@@ -69,8 +71,9 @@ img {
 
 .main-container {
   margin: 0 auto;
-  width: 90%;
-  padding: 0.5 0.5em;
+  width: 100%;
+  padding: 0 1em;
+  background: #EBF3FF;
 }
 
 header {
@@ -157,6 +160,11 @@ footer a {
    media queries
    ================= */
 @media (min-width: 400px) {
+
+  .main-container {
+    max-width: 1150px;
+    padding: 0 3.2em;
+  }
 
   .profile {
     display: flex;
