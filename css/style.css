@@ -81,7 +81,7 @@ img {
 header {
   display: flex;
   justify-content: space-between;
-  padding-top: 1em;
+  padding-top: 0.5em;
   border-bottom: 1px solid #000000;
 }
 
@@ -99,6 +99,7 @@ header {
 
 .profile-description,
 .card-info,
+.card-skills,
 ul {
   line-height: 1.35em;
 }
