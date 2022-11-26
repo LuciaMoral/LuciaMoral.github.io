@@ -23,6 +23,8 @@ h2 {
   font-size: 2.215rem;
   font-weight: 700;
   letter-spacing: -.02em;
+  margin-top: 0;
+  margin-bottom: 0;
 
 }
 
@@ -130,6 +132,7 @@ ul {
   flex-wrap: wrap;
   flex-direction: column;
   width: 100%;
+  margin-top: 0;
   padding-left: 0;
 
 }
