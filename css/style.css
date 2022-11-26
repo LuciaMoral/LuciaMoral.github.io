@@ -6,11 +6,9 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-size: 1rem;
   color: #151515;
-  background-color: #E5E5E5;
-  margin-top: 0;
-  margin-bottom: 0;
+  background-color: #dedede;
+  margin: 0;
 }
-
 
 /* =================
    Typography
@@ -24,6 +22,7 @@ h1 {
 h2 {
   font-size: 2.215rem;
   font-weight: 700;
+  letter-spacing: -.02em;
 
 }
 
@@ -46,6 +45,7 @@ img {
   height: 425px;
   object-fit: cover;
   border-radius: 4px;
+  mix-blend-mode: multiply;
 }
 
 .project {
@@ -72,8 +72,8 @@ img {
 .main-container {
   margin: 0 auto;
   width: 100%;
-  padding: 0 1em;
-  background: #EBF3FF;
+  padding: 0 1.5em 1.5em 1.5em;
+  background-color: #fff;
 }
 
 header {
@@ -85,28 +85,31 @@ header {
 
 .card {
   margin-top: 0.25em;
-  padding-bottom: 2em;
+  padding-bottom: 3.2em;
 
 }
 
 
 .profile {
   border-bottom: 1px solid #000000;
-  padding-bottom: 2em;
+  padding-bottom: 1.6em;
 }
 
 .profile-description,
-.card-info {
-  line-height: 1.25em;
+.card-info,
+ul {
+  line-height: 1.35em;
 }
 
 .projects {
   border-bottom: 1px solid #000000;
+  ;
 }
 
 
 .card-border {
   border-bottom: 1px solid #000000;
+
 }
 
 .card-skills {
@@ -119,6 +122,7 @@ header {
 
 .list {
   display: flex;
+  padding-bottom: 1.6em;
 }
 
 ul {
@@ -136,7 +140,7 @@ ul li {
 
 footer {
   border-top: 1px solid black;
-  margin-bottom: 1.5em;
+
 
 }
 
@@ -154,7 +158,7 @@ footer a {
 
 }
 
-.link {}
+
 
 /* =================
    media queries
@@ -163,7 +167,8 @@ footer a {
 
   .main-container {
     max-width: 1150px;
-    padding: 0 3.2em;
+    padding: 0 3.2em 1.2em 3.2em;
+    background-color: #fff;
   }
 
   .profile {
