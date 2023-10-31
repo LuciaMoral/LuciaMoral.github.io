@@ -33,6 +33,7 @@ h3,
   font-size: 1.5rem;
   font-weight: 700;
   color: #789eff;
+  margin-bottom: 0.25em;
 }
 
 span {
@@ -82,7 +83,7 @@ span {
 }
 
 .profile-description {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 .card-project {
   margin: 0 auto;
@@ -162,7 +163,7 @@ footer a:hover {
    ================= */
 @media (max-width: 415px) {
   .section-info {
-    padding-top: 0;
+    padding-top: 1.25em;
     margin: 0 auto;
     max-width: 500px;
   }
