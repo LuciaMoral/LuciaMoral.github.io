@@ -33,7 +33,8 @@ h3,
   font-size: 1.5rem;
   font-weight: 700;
   color: #789eff;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.65em;
+  margin-top: 0.25em;
 }
 
 span {
@@ -49,6 +50,7 @@ span {
   border-radius: 50px;
   padding: 1em 2.5em;
   color: #e4ff78;
+  letter-spacing: 1px;
 }
 
 .wagon-link {
@@ -114,7 +116,6 @@ ul {
 
 .list {
   display: flex;
-  padding-bottom: 1.6em;
 }
 
 .skills {
